@@ -1,0 +1,85 @@
+{
+	"name": "scraper",
+	"description": "",
+	"version": "1.0.0",
+	"main": "dist/index.js",
+	"author": "Nejc Drobnič <nejc@drobnic.me> (https://quantumly.dev)",
+	"private": true,
+	"type": "module",
+	"imports": {
+		"#lib/*": "./dist/lib/*.js",
+		"#root/*": "./dist/*.js"
+	},
+	"scripts": {
+		"lint": "eslint src --ext ts --fix",
+		"format": "prettier --write src/**/*.ts",
+		"start": "node dist/index.js",
+		"build": "tsc -b src",
+		"clean": "tsc -b src --clean",
+		"watch": "tsc -b src -w",
+		"dev": "yarn build && yarn start",
+		"commit": "git-cz",
+		"cz": "git-cz",
+		"update": "yarn upgrade-interactive --latest",
+		"prepare": "cd .. && husky install .github/husky"
+	},
+	"dependencies": {
+		"puppeteer": "^10.0.0"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^12.1.4",
+		"@commitlint/config-conventional": "^12.1.4",
+		"@sapphire/eslint-config": "3.2.0",
+		"@sapphire/prettier-config": "1.1.4",
+		"@sapphire/ts-config": "2.3.0",
+		"@types/node": "^15.12.4",
+		"@types/puppeteer": "^5.4.3",
+		"@typescript-eslint/eslint-plugin": "^4.27.0",
+		"@typescript-eslint/parser": "^4.28.0",
+		"cz-conventional-changelog": "^3.3.0",
+		"eslint": "^7.29.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-prettier": "^3.4.0",
+		"husky": "^6.0.0",
+		"lint-staged": "^11.0.0",
+		"npm-run-all": "^4.1.5",
+		"prettier": "^2.3.1",
+		"pretty-quick": "^3.1.1",
+		"standard-version": "^9.3.0",
+		"tslib": "^2.3.0",
+		"typescript": "^4.3.4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/s3r5/MladiZaNapredekMaribora.git"
+	},
+	"engines": {
+		"node": ">=14",
+		"npm": ">=6"
+	},
+	"bugs": {
+		"url": "https://github.com/s3r5/MladiZaNapredekMaribora/issues"
+	},
+	"homepage": "https://github.com/s3r5/MladiZaNapredekMaribora",
+	"commitlint": {
+		"extends": [
+			"@commitlint/config-conventional"
+		]
+	},
+	"lint-staged": {
+		"*.{mjs,js,ts}": "eslint --fix --ext mjs,js,ts"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	},
+	"resolutions": {
+		"acorn": "^8.4.0",
+		"minimist": "^1.2.5",
+		"kind-of": "^6.0.3",
+		"dot-prop": "^6.0.1",
+		"trim-newlines": "^3.0.1"
+	},
+	"prettier": "@sapphire/prettier-config"
+}
