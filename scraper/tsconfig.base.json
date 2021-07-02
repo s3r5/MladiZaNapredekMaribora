@@ -1,11 +1,12 @@
 {
 	"extends": "@sapphire/ts-config",
 	"compilerOptions": {
-		"target": "ESNext",
-		"module": "ESNext",
-		"lib": ["ESNext", "DOM"],
+		"target": "ES2021",
+		"module": "CommonJS",
+		"lib": ["ES2021", "DOM"],
 		"noEmitHelpers": true,
 		"importHelpers": true,
-		"removeComments": true
+		"removeComments": true,
+		"importsNotUsedAsValues": "remove"
 	}
 }

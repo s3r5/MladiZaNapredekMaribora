@@ -1,7 +1,12 @@
 import { fetchYears, gotoYear } from '#lib/utils';
 import puppeteer from 'puppeteer';
 import { SCHOOL } from '#root/consts';
+import fsp from 'fs/promises';
+import sanitize from 'sanitize-filename';
+import Downloader from 'nodejs-file-downloader';
+import path from 'path';
 
+const outPath = path.join(__dirname, '..', '..', 'naloge/');
 const headless = true;
 
 const main = async () => {
@@ -17,12 +22,13 @@ const main = async () => {
 	await page.goto('https://zpm-mb.si/raziskovalne-naloge/', { waitUntil: 'networkidle2' });
 	await page.select('select#naloga_sola.filter_select', SCHOOL);
 
-	await page.waitForTimeout(3000);
+	await page.waitForTimeout(1000);
 
 	const years = await fetchYears(page);
 
 	for (const year of years) {
 		await gotoYear(page, year);
+		await fsp.mkdir(path.join(outPath, year), { recursive: true });
 
 		await page.waitForTimeout(1000);
 
@@ -49,7 +55,19 @@ const main = async () => {
 			}
 		);
 
-		console.log(year, works);
+		for (const work of works) {
+			const sanitizedName = sanitize(work.name);
+			await fsp.mkdir(path.join(outPath, year, sanitizedName), { recursive: true });
+
+			if (work.digitalOut) {
+				const fileDownloader = new Downloader({
+					url: work.digitalOut,
+					directory: path.join(outPath, year, sanitizedName),
+					onBeforeSave: (finalName: string) => decodeURIComponent(finalName)
+				});
+				await fileDownloader.download();
+			}
+		}
 	}
 };
 

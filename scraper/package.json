@@ -5,7 +5,6 @@
 	"main": "dist/index.js",
 	"author": "Nejc Drobnič <nejc@drobnic.me> (https://quantumly.dev)",
 	"private": true,
-	"type": "module",
 	"imports": {
 		"#lib/*": "./dist/lib/*.js",
 		"#root/*": "./dist/*.js"
@@ -24,7 +23,9 @@
 		"prepare": "cd .. && husky install .github/husky"
 	},
 	"dependencies": {
-		"puppeteer": "^10.0.0"
+		"nodejs-file-downloader": "^4.7.1",
+		"puppeteer": "^10.0.0",
+		"sanitize-filename": "^1.6.3"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^12.1.4",
