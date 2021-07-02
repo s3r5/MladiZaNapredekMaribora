@@ -157,3 +157,5 @@ typings
 *.xhtml
 
 # End of https://www.toptal.com/developers/gitignore/api/git,node,web,typings
+
+!tsconfig.*.json
