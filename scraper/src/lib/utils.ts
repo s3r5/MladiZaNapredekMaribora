@@ -10,3 +10,9 @@ export async function gotoYear(page: puppeteer.Page, year: string) {
 	await page.waitForTimeout(500);
 	await page.select('select#naloga_leto.filter_select', year);
 }
+
+export function fetchInnerValue(element: Element | HTMLTableElement) {
+	const lastChild = element.lastElementChild as HTMLTableElement;
+
+	return lastChild.innerText;
+}

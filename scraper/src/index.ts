@@ -30,10 +30,20 @@ const main = async () => {
 			'div.rezultat_filter > div.large-3.columns > table.raz_naloga_table > tbody',
 			// @ts-expect-error I hate HTML queries
 			(works: HTMLTableElement[]) => {
+				function fetchInnerValue(element: Element | HTMLTableElement) {
+					const lastChild = element.lastElementChild as HTMLTableElement;
+
+					return lastChild.innerText;
+				}
+
 				return works.map(({ rows }) => {
 					return {
-						name: rows[0].innerText,
-						type: (rows[2].lastElementChild as HTMLTableElement).innerText
+						name: rows[0].innerText.replace(/\\t/gm, ''),
+						type: fetchInnerValue(rows[2]),
+						area: fetchInnerValue(rows[3]),
+						authors: fetchInnerValue(rows[5]).split(', '),
+						mentors: fetchInnerValue(rows[6]).split(', '),
+						digitalOut: (rows[11].lastElementChild!.lastElementChild as HTMLAnchorElement)?.href
 					};
 				});
 			}
@@ -48,4 +58,8 @@ void main();
 interface Work {
 	name: string;
 	type: string;
+	area: string;
+	authors: string[];
+	mentors: string[];
+	digitalOut?: string;
 }
