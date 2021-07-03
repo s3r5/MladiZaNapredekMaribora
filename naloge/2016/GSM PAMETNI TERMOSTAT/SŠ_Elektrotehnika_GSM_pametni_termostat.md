@@ -1,0 +1,3 @@
+
+				# 	GSM PAMETNI TERMOSTAT
+				

@@ -1,0 +1,3 @@
+
+				# 	IZDELAVA KITARSKEGA EFEKTA
+				

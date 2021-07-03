@@ -1,0 +1,3 @@
+
+				# 	PAMETNO SENČENJE ŽAROMETOV
+				

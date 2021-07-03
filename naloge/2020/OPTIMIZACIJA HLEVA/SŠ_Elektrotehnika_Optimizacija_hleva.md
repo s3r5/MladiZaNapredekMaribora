@@ -1,0 +1,3 @@
+
+				# 	OPTIMIZACIJA HLEVA
+				

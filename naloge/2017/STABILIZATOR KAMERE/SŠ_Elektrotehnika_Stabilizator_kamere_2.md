@@ -1,0 +1,3 @@
+
+				# 	STABILIZATOR KAMERE
+				

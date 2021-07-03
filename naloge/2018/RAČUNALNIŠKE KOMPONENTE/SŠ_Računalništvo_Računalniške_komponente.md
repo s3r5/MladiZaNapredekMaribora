@@ -1,0 +1,3 @@
+
+				# 	RAČUNALNIŠKE KOMPONENTE
+				

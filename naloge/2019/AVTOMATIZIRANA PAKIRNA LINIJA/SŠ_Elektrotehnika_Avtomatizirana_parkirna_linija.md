@@ -1,0 +1,3 @@
+
+				# 	AVTOMATIZIRANA PAKIRNA LINIJA
+				

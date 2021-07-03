@@ -1,0 +1,3 @@
+
+				# 	PAMETNA SOLARNA HIŠKA
+				
