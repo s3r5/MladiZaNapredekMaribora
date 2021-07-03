@@ -48,6 +48,8 @@ const main = async () => {
 						area: fetchInnerValue(rows[3]),
 						authors: fetchInnerValue(rows[5]).split(', '),
 						mentors: fetchInnerValue(rows[6]).split(', '),
+						points: Number(fetchInnerValue(rows[7])),
+						place: Number(fetchInnerValue(rows[8])),
 						digitalOut: (rows[11].lastElementChild!.lastElementChild as HTMLAnchorElement)?.href
 					};
 				});
@@ -66,10 +68,6 @@ const main = async () => {
 			await fsp.writeFile(path.join(workDirectory, `${fileName}.json`), JSON.stringify(work, null, '\t'), { encoding: 'utf8' });
 			await fsp.writeFile(path.join(workDirectory, `${fileName}.md`), [`# ${work.name}`].join('\n'), { encoding: 'utf8' });
 		}
-
-		console.log('Done');
-		await browser.close();
-		process.exit();
 	}
 };
 
@@ -81,5 +79,7 @@ export interface Work {
 	area: string;
 	authors: string[];
 	mentors: string[];
+	points: number;
+	place: number;
 	digitalOut?: string;
 }
