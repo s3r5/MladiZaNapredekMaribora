@@ -43,7 +43,7 @@ const main = async () => {
 
 				return works.map(({ rows }) => {
 					return {
-						name: rows[0].innerText.replace(/\\t/gm, ''),
+						name: rows[0].innerText.replace(/\t/gm, ''),
 						type: fetchInnerValue(rows[2]),
 						area: fetchInnerValue(rows[3]),
 						authors: fetchInnerValue(rows[5]).split(', '),
@@ -66,6 +66,10 @@ const main = async () => {
 			await fsp.writeFile(path.join(workDirectory, `${fileName}.json`), JSON.stringify(work, null, '\t'), { encoding: 'utf8' });
 			await fsp.writeFile(path.join(workDirectory, `${fileName}.md`), [`# ${work.name}`].join('\n'), { encoding: 'utf8' });
 		}
+
+		console.log('Done');
+		await browser.close();
+		process.exit();
 	}
 };
 
