@@ -1,3 +1,1 @@
-
-				# 	MINECRAFT
-				
+# MINECRAFT

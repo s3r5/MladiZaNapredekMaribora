@@ -1,3 +1,1 @@
-
-				# 	MEDICLY
-				
+# MEDICLY

@@ -1,3 +1,1 @@
-
-				# 	IP PREKO VSEGA
-				
+# IP PREKO VSEGA

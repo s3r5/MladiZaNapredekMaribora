@@ -1,3 +1,1 @@
-
-				# 	SIMULATOR VOŽNJE
-				
+# SIMULATOR VOŽNJE

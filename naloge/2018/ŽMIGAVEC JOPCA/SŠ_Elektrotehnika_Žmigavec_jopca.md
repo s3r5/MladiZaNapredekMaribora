@@ -1,3 +1,1 @@
-
-				# 	ŽMIGAVEC JOPCA
-				
+# ŽMIGAVEC JOPCA

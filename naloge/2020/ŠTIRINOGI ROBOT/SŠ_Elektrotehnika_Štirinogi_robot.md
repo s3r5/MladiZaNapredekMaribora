@@ -1,3 +1,1 @@
-
-				# 	ŠTIRINOGI ROBOT
-				
+# ŠTIRINOGI ROBOT

@@ -1,3 +1,1 @@
-
-				# 	PAMETNI ZVONEC
-				
+# PAMETNI ZVONEC

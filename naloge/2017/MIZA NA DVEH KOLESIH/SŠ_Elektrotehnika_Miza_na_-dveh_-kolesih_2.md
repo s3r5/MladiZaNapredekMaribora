@@ -1,3 +1,1 @@
-
-				# 	MIZA NA DVEH KOLESIH
-				
+# MIZA NA DVEH KOLESIH

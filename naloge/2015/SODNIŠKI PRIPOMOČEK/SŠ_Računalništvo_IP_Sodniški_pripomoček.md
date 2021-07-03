@@ -1,3 +1,1 @@
-
-				# 	SODNIŠKI PRIPOMOČEK
-				
+# SODNIŠKI PRIPOMOČEK

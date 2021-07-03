@@ -1,3 +1,1 @@
-
-				# 	OJAČEVALEC ZA HIŠNI KINO
-				
+# OJAČEVALEC ZA HIŠNI KINO

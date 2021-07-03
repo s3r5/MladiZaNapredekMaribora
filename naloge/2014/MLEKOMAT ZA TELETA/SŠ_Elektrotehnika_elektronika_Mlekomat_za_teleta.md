@@ -1,3 +1,1 @@
-
-				# 	MLEKOMAT ZA TELETA
-				
+# MLEKOMAT ZA TELETA

@@ -1,3 +1,1 @@
-
-				# 	LIFE – SOS ZAPESTNICA
-				
+# LIFE – SOS ZAPESTNICA

@@ -1,3 +1,1 @@
-
-				# 	PLAMENSKA DIODA
-				
+# PLAMENSKA DIODA

@@ -1,3 +1,1 @@
-
-				# 	PAMETNO OGLEDALO
-				
+# PAMETNO OGLEDALO

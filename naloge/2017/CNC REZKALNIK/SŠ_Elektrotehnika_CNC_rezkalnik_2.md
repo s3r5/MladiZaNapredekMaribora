@@ -1,3 +1,1 @@
-
-				# 	CNC REZKALNIK
-				
+# CNC REZKALNIK

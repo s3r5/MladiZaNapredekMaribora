@@ -1,3 +1,1 @@
-
-				# 	SRCE, SRČNI UTRIP IN DRUGE TEGOBE (računalništvo – zdravstvo)
-				
+# SRCE, SRČNI UTRIP IN DRUGE TEGOBE (računalništvo – zdravstvo)

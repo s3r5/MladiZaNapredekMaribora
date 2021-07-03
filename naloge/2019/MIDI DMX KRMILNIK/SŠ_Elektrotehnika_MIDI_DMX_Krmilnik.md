@@ -1,3 +1,1 @@
-
-				# 	MIDI DMX KRMILNIK
-				
+# MIDI DMX KRMILNIK

@@ -1,3 +1,1 @@
-
-				# 	NAROČNI RAČUNALNIK
-				
+# NAROČNI RAČUNALNIK

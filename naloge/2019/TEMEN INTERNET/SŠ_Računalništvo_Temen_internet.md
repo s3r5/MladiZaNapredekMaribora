@@ -1,3 +1,1 @@
-
-				# 	TEMEN INTERNET
-				
+# TEMEN INTERNET

@@ -1,3 +1,1 @@
-
-				# 	PAMETNA HIŠA
-				
+# PAMETNA HIŠA

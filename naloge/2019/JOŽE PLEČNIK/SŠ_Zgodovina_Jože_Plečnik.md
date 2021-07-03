@@ -1,3 +1,1 @@
-
-				# 	JOŽE PLEČNIK
-				
+# JOŽE PLEČNIK

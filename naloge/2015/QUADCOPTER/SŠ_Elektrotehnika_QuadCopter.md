@@ -1,3 +1,1 @@
-
-				# 	QUADCOPTER
-				
+# QUADCOPTER

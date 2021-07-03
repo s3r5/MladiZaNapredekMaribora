@@ -1,3 +1,1 @@
-
-				# 	REŠEVALNI ROBOT
-				
+# REŠEVALNI ROBOT

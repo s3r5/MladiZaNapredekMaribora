@@ -1,3 +1,1 @@
-
-				# 	ZVOČNO VALOVANJE
-				
+# ZVOČNO VALOVANJE

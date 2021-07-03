@@ -1,3 +1,1 @@
-
-				# 	ELEKTRIČNI SKIRO
-				
+# ELEKTRIČNI SKIRO
