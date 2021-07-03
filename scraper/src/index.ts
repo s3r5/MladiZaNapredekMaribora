@@ -1,10 +1,9 @@
-import { fetchYears, gotoYear } from '#lib/utils';
-import puppeteer from 'puppeteer';
+import { downloadWork, fetchYears, gotoYear } from '#lib/utils';
 import { SCHOOL } from '#root/consts';
 import fsp from 'fs/promises';
-import sanitize from 'sanitize-filename';
-import Downloader from 'nodejs-file-downloader';
 import path from 'path';
+import puppeteer from 'puppeteer';
+import sanitize from 'sanitize-filename';
 
 const outPath = path.join(__dirname, '..', '..', 'naloge/');
 const headless = true;
@@ -57,23 +56,22 @@ const main = async () => {
 
 		for (const work of works) {
 			const sanitizedName = sanitize(work.name);
-			await fsp.mkdir(path.join(outPath, year, sanitizedName), { recursive: true });
+			const workDirectory = path.join(outPath, year, sanitizedName);
+			await fsp.mkdir(workDirectory, { recursive: true });
 
-			if (work.digitalOut) {
-				const fileDownloader = new Downloader({
-					url: work.digitalOut,
-					directory: path.join(outPath, year, sanitizedName),
-					onBeforeSave: (finalName: string) => decodeURIComponent(finalName)
-				});
-				await fileDownloader.download();
-			}
+			await downloadWork(work, workDirectory);
+
+			const fileName = work.digitalOut ? decodeURIComponent(work.digitalOut.split('/').pop()!.split('.').shift()!) : sanitizedName;
+
+			await fsp.writeFile(path.join(workDirectory, `${fileName}.json`), JSON.stringify(work, null, '\t'), { encoding: 'utf8' });
+			await fsp.writeFile(path.join(workDirectory, `${fileName}.md`), [`# ${work.name}`].join('\n'), { encoding: 'utf8' });
 		}
 	}
 };
 
 void main();
 
-interface Work {
+export interface Work {
 	name: string;
 	type: string;
 	area: string;
