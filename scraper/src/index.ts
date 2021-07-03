@@ -50,6 +50,8 @@ const main = async () => {
 						mentors: fetchInnerValue(rows[6]).split(', '),
 						points: Number(fetchInnerValue(rows[7])),
 						place: Number(fetchInnerValue(rows[8])),
+						award: fetchInnerValue(rows[9]),
+						prize: fetchInnerValue(rows[10]),
 						digitalOut: (rows[11].lastElementChild!.lastElementChild as HTMLAnchorElement)?.href
 					};
 				});
@@ -73,6 +75,8 @@ const main = async () => {
 
 void main();
 
+export type Awards = 'bronasto' | 'srebrno' | 'zlato' | '';
+
 export interface Work {
 	name: string;
 	type: string;
@@ -81,5 +85,7 @@ export interface Work {
 	mentors: string[];
 	points: number;
 	place: number;
+	award: Awards;
+	prize: string;
 	digitalOut?: string;
 }
