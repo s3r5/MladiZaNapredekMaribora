@@ -28,6 +28,7 @@ const main = async () => {
 	for (const year of years) {
 		await gotoYear(page, year);
 		await fsp.mkdir(path.join(outPath, year), { recursive: true });
+		await fsp.writeFile(path.join(outPath, year, '.gitkeep'), '', { encoding: 'utf8' });
 
 		await page.waitForTimeout(1000);
 
