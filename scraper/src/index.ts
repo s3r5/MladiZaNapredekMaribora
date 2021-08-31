@@ -26,6 +26,7 @@ const main = async () => {
 	const years = await fetchYears(page);
 
 	for (const year of years) {
+		console.log(`Year: ${year}`);
 		await gotoYear(page, year);
 		await fsp.mkdir(path.join(outPath, year), { recursive: true });
 		await fsp.writeFile(path.join(outPath, year, '.gitkeep'), '', { encoding: 'utf8' });
@@ -59,7 +60,9 @@ const main = async () => {
 			}
 		);
 
-		for (const work of works) {
+		for (let i = 0; i < works.length; ++i) {
+			console.log(`Work ${i + 1}/${works.length}; ${year}`);
+			const work = works[i];
 			const sanitizedName = sanitize(work.name);
 			const workDirectory = path.join(outPath, year, sanitizedName);
 			await fsp.mkdir(workDirectory, { recursive: true });
@@ -72,6 +75,8 @@ const main = async () => {
 			await fsp.writeFile(path.join(workDirectory, `${fileName}.md`), [`# ${work.name}`].join('\n'), { encoding: 'utf8' });
 		}
 	}
+
+	process.exit();
 };
 
 void main();
