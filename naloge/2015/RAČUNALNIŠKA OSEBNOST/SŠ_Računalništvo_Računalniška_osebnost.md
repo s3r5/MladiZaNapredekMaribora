@@ -1,1 +1,3 @@
 # RAČUNALNIŠKA OSEBNOST
+## Mesto
+2 - 136

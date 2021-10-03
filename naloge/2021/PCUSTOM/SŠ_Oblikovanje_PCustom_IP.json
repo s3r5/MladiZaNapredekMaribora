@@ -1,0 +1,19 @@
+{
+	"name": "PCUSTOM",
+	"type": "Inovacijski predlog",
+	"area": "Oblikovanje",
+	"authors": [
+		"TADEJ GUNGL",
+		"TILEN EBERHART",
+		"ANEJ BRADAČ VRANC"
+	],
+	"mentors": [
+		"JERNEJ FEGUŠ",
+		"HELENA STERNAD"
+	],
+	"points": 105,
+	"place": 2,
+	"award": "bronasto",
+	"prize": "/",
+	"digitalOut": "https://zpm-mb.si/wp-content/uploads/2021/09/S%C5%A0_Oblikovanje_PCustom_IP.pdf"
+}

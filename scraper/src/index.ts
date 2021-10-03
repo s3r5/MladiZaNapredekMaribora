@@ -72,7 +72,11 @@ const main = async () => {
 			const fileName = work.digitalOut ? decodeURIComponent(work.digitalOut.split('/').pop()!.split('.').shift()!) : sanitizedName;
 
 			await fsp.writeFile(path.join(workDirectory, `${fileName}.json`), JSON.stringify(work, null, '\t'), { encoding: 'utf8' });
-			await fsp.writeFile(path.join(workDirectory, `${fileName}.md`), [`# ${work.name}`].join('\n'), { encoding: 'utf8' });
+			await fsp.writeFile(path.join(workDirectory, `${fileName}.md`), [
+				`# ${work.name}`,
+				`## Mesto`,
+				`${work.place} - ${work.points}`
+			].join('\n'), { encoding: 'utf8' });
 		}
 	}
 
