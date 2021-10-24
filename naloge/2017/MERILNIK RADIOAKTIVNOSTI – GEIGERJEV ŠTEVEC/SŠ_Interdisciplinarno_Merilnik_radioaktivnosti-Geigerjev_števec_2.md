@@ -1,3 +1,10 @@
 # MERILNIK RADIOAKTIVNOSTI – GEIGERJEV ŠTEVEC
-## Mesto
+## Mesto - Število točk
 9 - 91
+## Osebe
+### Avtorji
+ * SIMON VAVAN SKAZA
+ * MIHAEL NAMESTNIK BRBRE
+ * ALEŠ PAJTLER
+### Mentorji
+ * BOJAN ROZIN

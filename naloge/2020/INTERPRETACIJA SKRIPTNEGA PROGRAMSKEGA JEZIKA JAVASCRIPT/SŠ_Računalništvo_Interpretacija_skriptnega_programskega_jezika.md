@@ -1,3 +1,8 @@
 # INTERPRETACIJA SKRIPTNEGA PROGRAMSKEGA JEZIKA JAVASCRIPT
-## Mesto
+## Mesto - Število točk
 7 - 72
+## Osebe
+### Avtorji
+ * NEJC DROBNIČ
+### Mentorji
+ * BRANKO POTISK

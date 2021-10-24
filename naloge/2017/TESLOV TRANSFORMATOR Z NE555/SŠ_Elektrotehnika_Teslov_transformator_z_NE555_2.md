@@ -1,3 +1,8 @@
 # TESLOV TRANSFORMATOR Z NE555
-## Mesto
+## Mesto - Število točk
 10 - 149
+## Osebe
+### Avtorji
+ * PRIMOŽ SMOGAVEC
+### Mentorji
+ * ROBERT GAŠPARIČ

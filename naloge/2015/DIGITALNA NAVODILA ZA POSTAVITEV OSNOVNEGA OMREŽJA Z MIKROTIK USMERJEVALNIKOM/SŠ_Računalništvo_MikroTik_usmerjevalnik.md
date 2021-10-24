@@ -1,3 +1,9 @@
 # DIGITALNA NAVODILA ZA POSTAVITEV OSNOVNEGA OMREŽJA Z MIKROTIK USMERJEVALNIKOM
-## Mesto
+## Mesto - Število točk
 5 - 85
+## Osebe
+### Avtorji
+ * TOMAŽ HABULIN
+ * MATIC STRAJNŠAK
+### Mentorji
+ * MARJAN URANJEK

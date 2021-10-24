@@ -1,3 +1,9 @@
 # S PAMETNIM TELEFONOM PO MARIBORU
-## Mesto
+## Mesto - Število točk
 1 - 134
+## Osebe
+### Avtorji
+ * BLAŽ VIDOVIČ
+ * MATIC ŽNIDERIČ
+### Mentorji
+ * BRANKO POTISK

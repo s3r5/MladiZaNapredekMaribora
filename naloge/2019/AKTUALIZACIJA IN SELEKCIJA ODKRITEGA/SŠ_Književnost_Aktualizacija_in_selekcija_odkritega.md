@@ -1,3 +1,8 @@
 # AKTUALIZACIJA IN SELEKCIJA ODKRITEGA
-## Mesto
+## Mesto - Število točk
 4 - 101
+## Osebe
+### Avtorji
+ * JURE GOLOB
+### Mentorji
+ * JELKA PIŠEC

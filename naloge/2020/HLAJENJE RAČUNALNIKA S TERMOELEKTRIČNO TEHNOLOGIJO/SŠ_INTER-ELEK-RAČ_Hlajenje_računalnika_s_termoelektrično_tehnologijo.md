@@ -1,3 +1,10 @@
 # HLAJENJE RAČUNALNIKA S TERMOELEKTRIČNO TEHNOLOGIJO
-## Mesto
+## Mesto - Število točk
 6 - 112
+## Osebe
+### Avtorji
+ * SENAD SALKANOVIĆ
+ * OGNJEN VUČKOVIĆ
+ * LIAM MESAREC
+### Mentorji
+ * IVANKA LESJAK

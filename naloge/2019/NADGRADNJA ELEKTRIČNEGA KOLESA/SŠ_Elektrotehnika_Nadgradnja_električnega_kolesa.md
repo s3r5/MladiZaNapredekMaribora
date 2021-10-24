@@ -1,3 +1,11 @@
 # NADGRADNJA ELEKTRIČNEGA KOLESA
-## Mesto
+## Mesto - Število točk
 4 - 157
+## Osebe
+### Avtorji
+ * MITJA DOKL
+ * JAKA GSELMAN
+ * PRIMOŽ GALUN
+### Mentorji
+ * DARKO VISOČNIK
+ * BENJAMIN VERGLES

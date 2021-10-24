@@ -1,3 +1,10 @@
 # SAMODEJNI IZKLOP SMEROKAZOV NA ENOSLEDNIH MOTORNIH VOZILIH
-## Mesto
+## Mesto - Število točk
 2 - 156
+## Osebe
+### Avtorji
+ * ROK PALKO
+ * TADEJ RAJTMAJER
+ * VID RAMŠAK
+### Mentorji
+ * DARKO VISOČNIK

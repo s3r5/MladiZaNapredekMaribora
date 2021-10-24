@@ -1,3 +1,8 @@
 # AVTOMATIZIRANJE PROIZVODNE LINIJE ZA MLEČNE IZDELKE
-## Mesto
+## Mesto - Število točk
 10 - 141
+## Osebe
+### Avtorji
+ * JURE GOLOB
+### Mentorji
+ * RUDOLF WEINZERL

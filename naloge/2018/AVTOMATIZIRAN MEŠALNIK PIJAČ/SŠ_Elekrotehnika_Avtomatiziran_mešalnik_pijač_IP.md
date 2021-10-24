@@ -1,3 +1,9 @@
 # AVTOMATIZIRAN MEŠALNIK PIJAČ
-## Mesto
+## Mesto - Število točk
 4 - 139
+## Osebe
+### Avtorji
+ * KRISTJAN ŽIGART
+ * JANEZ KEČEK
+### Mentorji
+ * JERNEJ FEGUŠ

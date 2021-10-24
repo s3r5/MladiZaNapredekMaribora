@@ -1,3 +1,9 @@
 # KLASIFIKACIJA VIDEO OBJEKTOV S POSTOPKOM GLOBOKEGA UČENJA
-## Mesto
+## Mesto - Število točk
 3 - 125
+## Osebe
+### Avtorji
+ * NEJC FIRBAS
+ * PATRICK KAČIČ
+### Mentorji
+ * ZDRAVKO KAČIČ

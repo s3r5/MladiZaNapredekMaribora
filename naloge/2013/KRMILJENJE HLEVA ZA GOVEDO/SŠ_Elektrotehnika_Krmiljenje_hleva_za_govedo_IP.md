@@ -1,3 +1,9 @@
 # KRMILJENJE HLEVA ZA GOVEDO
-## Mesto
+## Mesto - Število točk
 1 - 166
+## Osebe
+### Avtorji
+ * MIHAEL HAJŠEK
+ * JURE DOBERŠEK
+### Mentorji
+ * MILAN IVIČ

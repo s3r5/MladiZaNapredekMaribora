@@ -1,3 +1,8 @@
 # LIFE – SOS ZAPESTNICA
-## Mesto
+## Mesto - Število točk
 2 - 154
+## Osebe
+### Avtorji
+ * JAKA WALDHÜTTER
+### Mentorji
+ * MIRAN WALDHÜTTER

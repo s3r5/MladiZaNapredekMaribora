@@ -1,3 +1,9 @@
 # SISTEM SKLADIŠČENJA Z RAZVOJNO PLOŠČO ARDUINO IN ČITALCEM ČRTNIH KOD
-## Mesto
+## Mesto - Število točk
 12 - 146
+## Osebe
+### Avtorji
+ * NEJC GROBELNIK
+ * JURE GOLOB
+### Mentorji
+ * MILAN IVIČ

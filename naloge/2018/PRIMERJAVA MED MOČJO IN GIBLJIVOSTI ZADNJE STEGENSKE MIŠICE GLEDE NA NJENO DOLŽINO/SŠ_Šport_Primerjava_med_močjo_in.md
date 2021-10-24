@@ -1,3 +1,9 @@
 # PRIMERJAVA MED MOČJO IN GIBLJIVOSTI ZADNJE STEGENSKE MIŠICE GLEDE NA NJENO DOLŽINO
-## Mesto
+## Mesto - Število točk
 2 - 135
+## Osebe
+### Avtorji
+ * EDI DREVENŠEK
+ * AMADEJ JELEN
+### Mentorji
+ * BOJAN SKOK

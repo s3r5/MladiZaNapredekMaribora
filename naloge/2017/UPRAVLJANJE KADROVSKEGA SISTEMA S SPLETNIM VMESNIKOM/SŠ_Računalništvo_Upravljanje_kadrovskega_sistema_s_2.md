@@ -1,3 +1,9 @@
 # UPRAVLJANJE KADROVSKEGA SISTEMA S SPLETNIM VMESNIKOM
-## Mesto
+## Mesto - Število točk
 5 - 119
+## Osebe
+### Avtorji
+ * LUKA KOBALE
+ * JANI KAUKLER
+### Mentorji
+ * MILAN IVIČ

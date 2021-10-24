@@ -1,3 +1,9 @@
 # VPLIV KITARSKIH EFEKTOV NA PREOBLIKOVANJE SIGNALA
-## Mesto
+## Mesto - Število točk
 4 - 129
+## Osebe
+### Avtorji
+ * MATJAŽ KAJBA
+ * ŽIGA ZORC
+### Mentorji
+ * GREGOR NIKOLIĆ

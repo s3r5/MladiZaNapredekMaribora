@@ -1,3 +1,9 @@
 # IP PREKO VSEGA
-## Mesto
+## Mesto - Število točk
 1 - 145
+## Osebe
+### Avtorji
+ * PETER BERBERIH
+ * MIHA FRANGEŽ
+### Mentorji
+ * BRANKO POTISK

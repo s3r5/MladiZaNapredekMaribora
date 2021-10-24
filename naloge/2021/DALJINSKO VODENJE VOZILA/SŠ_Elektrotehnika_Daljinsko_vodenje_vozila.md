@@ -1,3 +1,8 @@
 # DALJINSKO VODENJE VOZILA
-## Mesto
+## Mesto - Število točk
 4 - 152
+## Osebe
+### Avtorji
+ * GREGOR KEPE
+### Mentorji
+ * BOJAN DEŽMAN
