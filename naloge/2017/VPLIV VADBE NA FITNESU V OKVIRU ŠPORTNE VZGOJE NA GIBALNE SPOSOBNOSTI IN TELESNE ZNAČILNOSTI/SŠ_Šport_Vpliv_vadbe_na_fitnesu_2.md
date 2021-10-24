@@ -1,3 +1,9 @@
 # VPLIV VADBE NA FITNESU V OKVIRU ŠPORTNE VZGOJE NA GIBALNE SPOSOBNOSTI IN TELESNE ZNAČILNOSTI
-## Mesto
+## Mesto - Število točk
 2 - 148
+## Osebe
+### Avtorji
+ * JAN HAUPTMAN
+ * ANDI POPLAS
+### Mentorji
+ * BOJAN SKOK

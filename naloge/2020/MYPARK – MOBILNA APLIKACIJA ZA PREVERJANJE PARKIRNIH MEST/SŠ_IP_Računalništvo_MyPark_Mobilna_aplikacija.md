@@ -1,3 +1,9 @@
 # MYPARK – MOBILNA APLIKACIJA ZA PREVERJANJE PARKIRNIH MEST
-## Mesto
+## Mesto - Število točk
 13 - 136
+## Osebe
+### Avtorji
+ * MARK BERDNIK
+ * GREGOR GRIL
+### Mentorji
+ * MANJA SOVIČ POTISK

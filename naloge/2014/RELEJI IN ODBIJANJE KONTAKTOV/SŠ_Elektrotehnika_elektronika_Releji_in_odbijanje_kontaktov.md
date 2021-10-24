@@ -1,3 +1,8 @@
 # RELEJI IN ODBIJANJE KONTAKTOV
-## Mesto
+## Mesto - Število točk
 3 - 154
+## Osebe
+### Avtorji
+ * Dominik Gril
+### Mentorji
+ * Milan Ivič

@@ -1,3 +1,8 @@
 # NAPRAVA ZA IZDELOVANJE KOKTAJLOV
-## Mesto
+## Mesto - Število točk
 3 - 157
+## Osebe
+### Avtorji
+ * ALJAŽ ROŽIČ
+### Mentorji
+ * BOJAN DEŽMAN

@@ -1,3 +1,10 @@
 # USTANOVITEV PODJETJA S PROMOCIJSKIMI OBLAČILI
-## Mesto
+## Mesto - Število točk
 1 - 129
+## Osebe
+### Avtorji
+ * MINEA PEER
+ * MEGI REPEC
+### Mentorji
+ * DOMEN RUPNIK
+ * HELENA STERNAD

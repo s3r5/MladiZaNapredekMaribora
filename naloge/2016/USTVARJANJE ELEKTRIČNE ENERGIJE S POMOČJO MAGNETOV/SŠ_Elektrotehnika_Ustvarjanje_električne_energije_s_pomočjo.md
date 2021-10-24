@@ -1,3 +1,8 @@
 # USTVARJANJE ELEKTRIČNE ENERGIJE S POMOČJO MAGNETOV
-## Mesto
+## Mesto - Število točk
 9 - 121
+## Osebe
+### Avtorji
+ * JAKA WALDHÜTTER
+### Mentorji
+ * BENJAMIN VERGLES

@@ -74,8 +74,13 @@ const main = async () => {
 			await fsp.writeFile(path.join(workDirectory, `${fileName}.json`), JSON.stringify(work, null, '\t'), { encoding: 'utf8' });
 			await fsp.writeFile(path.join(workDirectory, `${fileName}.md`), [
 				`# ${work.name}`,
-				`## Mesto`,
-				`${work.place} - ${work.points}`
+				`## Mesto - Število točk`,
+				`${work.place} - ${work.points}`,
+				`## Osebe`,
+				`### Avtorji`,
+				`${work.authors.map((a) => ` * ${a}`).join('\n')}`,
+				`### Mentorji`,
+				`${work.mentors.map((m) => ` * ${m}`).join('\n')}`
 			].join('\n'), { encoding: 'utf8' });
 		}
 	}

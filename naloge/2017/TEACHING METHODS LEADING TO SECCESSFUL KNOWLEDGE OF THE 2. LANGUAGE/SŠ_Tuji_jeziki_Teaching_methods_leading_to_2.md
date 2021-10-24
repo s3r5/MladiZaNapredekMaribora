@@ -1,3 +1,8 @@
 # TEACHING METHODS LEADING TO SECCESSFUL KNOWLEDGE OF THE 2. LANGUAGE
-## Mesto
+## Mesto - Število točk
 1 - 123
+## Osebe
+### Avtorji
+ * ALJAŽ AUREDNIK
+### Mentorji
+ * SUZANA REHBERGER

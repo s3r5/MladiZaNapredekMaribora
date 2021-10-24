@@ -1,3 +1,8 @@
 # RGB LED TRAK KRMILJEN Z ARDUINO RAZVOJNO PLOŠČICO PREKO BLUETOOTHA
-## Mesto
+## Mesto - Število točk
 8 - 118
+## Osebe
+### Avtorji
+ * DAVID KONEC
+### Mentorji
+ * ROBERT GAŠPARIČ

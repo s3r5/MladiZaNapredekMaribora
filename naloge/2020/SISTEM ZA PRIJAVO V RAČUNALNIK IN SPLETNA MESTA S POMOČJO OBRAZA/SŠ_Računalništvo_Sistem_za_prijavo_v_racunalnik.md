@@ -1,3 +1,10 @@
 # SISTEM ZA PRIJAVO V RAČUNALNIK IN SPLETNA MESTA S POMOČJO OBRAZA
-## Mesto
+## Mesto - Število točk
 4 - 119
+## Osebe
+### Avtorji
+ * NEJC ZAJC
+ * DAVID KRČEK
+ * JAN SELINŠEK
+### Mentorji
+ * IVANKA LESJAK

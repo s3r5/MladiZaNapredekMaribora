@@ -1,3 +1,9 @@
 # MOBILNA APLIKACIJA ZA POGLED VOZNIH REDOV PODJETJA MARPROM
-## Mesto
+## Mesto - Število točk
 2 - 141
+## Osebe
+### Avtorji
+ * SAŠO PAVLIČ
+ * TOMAŽ LEOPOLD
+### Mentorji
+ * SLAVKO NEKREP

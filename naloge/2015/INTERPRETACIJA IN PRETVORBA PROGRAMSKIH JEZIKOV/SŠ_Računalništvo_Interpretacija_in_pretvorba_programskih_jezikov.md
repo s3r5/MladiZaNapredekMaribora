@@ -1,3 +1,9 @@
 # INTERPRETACIJA IN PRETVORBA PROGRAMSKIH JEZIKOV
-## Mesto
+## Mesto - Število točk
 3 - 115
+## Osebe
+### Avtorji
+ * ŽAN VIDRIH
+ * TOMAŽ LEOPOLD
+### Mentorji
+ * SLAVKO NEKREP

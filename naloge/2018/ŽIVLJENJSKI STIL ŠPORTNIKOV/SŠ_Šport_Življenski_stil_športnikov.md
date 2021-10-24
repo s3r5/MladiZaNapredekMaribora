@@ -1,3 +1,9 @@
 # ŽIVLJENJSKI STIL ŠPORTNIKOV
-## Mesto
+## Mesto - Število točk
 3 - 121
+## Osebe
+### Avtorji
+ * SANI SMAJIĆ
+ * PRIMOŽ LOVRENČIČ
+### Mentorji
+ * ALEŠ BEZJAK

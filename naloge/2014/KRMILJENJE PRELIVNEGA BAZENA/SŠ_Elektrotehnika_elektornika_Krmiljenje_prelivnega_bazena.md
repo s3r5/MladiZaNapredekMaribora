@@ -1,3 +1,8 @@
 # KRMILJENJE PRELIVNEGA BAZENA
-## Mesto
+## Mesto - Število točk
 1 - 165
+## Osebe
+### Avtorji
+ * Jernej Frangež
+### Mentorji
+ * Robert Gašparič

@@ -1,3 +1,9 @@
 # AVTOMATIZACIJA RASTLINJAKA Z VMESNIKOM ARDUINO IN LABVIEW
-## Mesto
+## Mesto - Število točk
 6 - 152
+## Osebe
+### Avtorji
+ * ROK KAMENEČKI
+ * TIMOTEJ MERKLIN
+### Mentorji
+ * MILAN IVIČ

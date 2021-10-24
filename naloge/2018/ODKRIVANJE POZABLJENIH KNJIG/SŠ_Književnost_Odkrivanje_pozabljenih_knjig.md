@@ -1,3 +1,8 @@
 # ODKRIVANJE POZABLJENIH KNJIG
-## Mesto
+## Mesto - Število točk
 5 - 143
+## Osebe
+### Avtorji
+ * JURE GOLOB
+### Mentorji
+ * JELKA PIŠEC

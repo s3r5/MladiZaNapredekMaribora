@@ -1,3 +1,10 @@
 # RAZDELILNA MOBILNA OMARICA Z DALJINSKIM ODČITAVANJEM
-## Mesto
+## Mesto - Število točk
 6 - 153
+## Osebe
+### Avtorji
+ * ALEX BARON LAH
+ * IGNJATIJE BUMBULOVIĆ
+ * MATIC ŠULC
+### Mentorji
+ * IVANKA LESJAK
